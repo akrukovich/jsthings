@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="container top">
+    <h1>Piramid Slide</h1>
+</div>
+<div class="container">
+    <div class="main">
+        <div class="head">
+            <div class="xs-full p-left">
+                <p class="text-center">Brick Symbol:</p>
+                <div class="dropdown">
+                    <select class="dropdown-select" name="combobox">
+                        <option value="#">#</option>
+                        <option value="$">$</option>
+                        <option value="@">@</option>
+                        <option value="X">X</option>
+                        <option value="square">&#11035;</option>
+                    </select>
+                </div>
+            </div>
+            <div class="xs-full p-right">
+                <p class="text-center">How high?</p>
+                <input autocomplete="off" type="range" name="how-size" value="10" step="1" min="1" max="20">
+                <div id="size-upstairs">10</div>
+            </div>
+        </div>
+        <div id="pyramid">
+        </div>
+    </div>
+</div>
+<script src="piramid.js"></script>
+</body>
+
+</html>
